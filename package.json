@@ -1,0 +1,23 @@
+{
+  "name": "stock_data",
+  "version": "1.0.0",
+  "description": "Obtains stock data from Polygon API for Machine Learning experimentations",
+  "main": "data_server.js",
+  "scripts": {
+    "test": "data_server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chesterrc/StockMarketAnalytics.git"
+  },
+  "author": "Chester Corpuz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chesterrc/StockMarketAnalytics/issues"
+  },
+  "homepage": "https://github.com/chesterrc/StockMarketAnalytics#readme",
+  "dependencies": {
+    "@polygon.io/client-js": "^7.2.6",
+    "dotenv": "^16.3.1"
+  }
+}
