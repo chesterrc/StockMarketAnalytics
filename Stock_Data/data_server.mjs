@@ -5,6 +5,7 @@ import { restClient } from '@polygon.io/client-js';
 //connect to Polygon
 const rest = restClient(process.env.STOCK_KEY)
 
+console.log(process.env.STOCK_KEY)
 //simple start to determine algo
 //calls Poly API to grab APPL data by day and log to console
 rest.stocks.aggregates("AAPL", 1, "day", "2023-01-01", "2023-04-14")
@@ -14,3 +15,4 @@ rest.stocks.aggregates("AAPL", 1, "day", "2023-01-01", "2023-04-14")
 .catch(e => { //promise returns an error
 	console.error('An error happened:', e);
 });
+

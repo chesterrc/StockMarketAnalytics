@@ -1,9 +1,4 @@
-#ignore .env files
+#ignore keys
 *.env
-<<<<<<< HEAD
-#ignore node moduls
-=======
-
-#ignore package-lock dependencies
->>>>>>> f827930 (reorganization)
+#ignore modules
 node_modules
